@@ -2,59 +2,61 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Amr Sayed | Laravel Developer</title>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amr Sayed Abdo | Full Stack Developer</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a2d9a66c52.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <header class="hero">
-    <h1>Amr Sayed Abdo</h1>
-    <p>Laravel & PHP Backend Developer</p>
-    <a href="#contact" class="cta">Contact Me</a>
+
+  <!-- Header Navigation -->
+  <header>
+    <div class="nav">
+      <h2>Amr Sayed</h2>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="portfolio.html">Portfolio</a>
+      </nav>
+    </div>
   </header>
 
-  <section class="about">
-    <h2>About Me</h2>
-    <p>
-      I'm a Computer Science graduate and a backend developer with strong experience in Laravel, PHP, MySQL, and RESTful APIs. Passionate about clean code and scalable architecture. I build secure and efficient systems using modern tools and best practices.
-    </p>
-  </section>
+  <!-- Hero Section -->
+  <div class="hero">
+    <canvas id="bg"></canvas>
+    <div class="hero-content">
+      <h1>I'M <span>AMR SAYED</span></h1>
+      <p>Full Stack Developer | Laravel & PHP Expert</p>
+      
+      <div class="nav-buttons">
+        <a href="portfolio.html">Explore My Work</a>
+      </div>
 
-  <section class="skills">
-    <h2>Skills</h2>
-    <div class="skills-grid">
-      <span>Laravel</span>
-      <span>PHP</span>
-      <span>MySQL</span>
-      <span>HTML</span>
-      <span>CSS</span>
-      <span>Bootstrap</span>
-      <span>JavaScript</span>
-      <span>Git</span>
-      <span>GitHub</span>
-      <span>Postman</span>
+      <div class="social-icons">
+        <a href="https://github.com/Amrsayed02" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/mohamedasak" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.kaggle.com/mohamedasak" target="_blank"><i class="fab fa-kaggle"></i></a>
+      </div>
     </div>
-  </section>
+  </div>
 
-  <section class="projects">
-    <h2>Projects</h2>
-    <ul>
-      <li><a href="https://github.com/Amrsayed02/graduation_project-for-irregula-_employment" target="_blank">Graduation Project – Irregular Employment Platform</a></li>
-      <li><a href="https://github.com/Amrsayed02/-Application-for-managing-posts.git" target="_blank">Application for Managing Posts</a></li>
-      <li><a href="https://github.com/Amrsayed02/login-and-register-system.git" target="_blank">Login and Register System</a></li>
-    </ul>
-  </section>
+  <!-- Vanta.js Background -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.121.1/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.net.min.js"></script>
+  <script>
+    VANTA.NET({
+      el: "#bg",
+      mouseControls: true,
+      touchControls: true,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color: 0x0077ff,
+      backgroundColor: 0x0d0d0d
+    });
+  </script>
 
-  <section class="contact" id="contact">
-    <h2>Contact</h2>
-    <p>📧 amr666145@gmail.com</p>
-    <p>📱 01154189739</p>
-    <p>🔗 <a href="https://github.com/Amrsayed02" target="_blank">GitHub Profile</a></p>
-  </section>
-
-  <footer>
-    <p>© 2025 Amr Sayed. All rights reserved.</p>
-  </footer>
 </body>
 </html>
