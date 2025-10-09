@@ -1,40 +1,21 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Amr Sayed Abdo - Portfolio</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">Portfolio</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-          <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Hero Section -->
-  <section class="text-center p-5 bg-light">
-    <img src="images/myphoto.jpg" class="rounded-circle mb-3" width="200" alt="Amr Sayed">
-    <h1 class="mb-3">Amr Sayed Abdo</h1>
-    <p class="lead">Full Stack Developer (PHP / Laravel)</p>
-    <a href="projects.html" class="btn btn-primary">Explore My Work</a>
-  </section>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Amr Sayed Abdo - Portfolio</title><link rel="stylesheet" href="style.css"></head><body>
+<header class="navbar"><div class="brand">Amr Sayed</div><div id="navLinks" class="nav-links"><a href="index.html">Home</a><a href="about.html">About</a><a href="projects.html">Projects</a><a href="skills.html">Skills</a><a href="contact.html">Contact</a></div><button id="navToggle" aria-label="menu" style="display:none;background:transparent;border:0;font-weight:700">Menu</button></header>
+<section class="hero"><div class="hero-left fade-in"><h1>Hi, I’m <span style="color:var(--primary)">Amr Sayed Abdo</span></h1><p class="lead">Junior Back-End Developer (PHP / Laravel) — Passionate developer building modern web applications using Laravel and React.</p><div class="cta"><a class="btn btn-primary" href="projects.html">View Projects</a><a class="btn btn-outline" href="Amr-Sayed-Abdo.pdf" download>Download CV</a></div></div><div class="hero-right fade-in"><img src="images/myphoto.jpg" alt="Amr Sayed" class="profile-img"></div></section>
+<main><section class="section fade-in" id="about"><h2>About Me</h2><p>I’m a Computer Science graduate from Thebes Academy with practical experience in building backend systems and RESTful APIs using <strong>PHP / Laravel</strong>. I focus on clean architecture, security, and scalable code. Currently expanding skills into modern frontend with <strong>React.js</strong>.</p></section>
+<section class="section fade-in" id="projects"><h2>Projects</h2><div class="card-grid">
+<div class="card"><img class="project-thumb" src="images/myphoto.jpg" alt="project"><h3>Graduation Project – Irregular Employment Platform</h3><p>Backend in Laravel, secure RESTful APIs for user auth, job posting, applications and admin controls.</p><p><a href="https://github.com/Amrsayed02/graduation_project-for-irregula-_employment" target="_blank">View on GitHub</a></p></div>
+<div class="card"><img class="project-thumb" src="images/myphoto.jpg" alt="project"><h3>Application for Managing Posts</h3><p>CRUD system for posts management with authentication.</p><p><a href="https://github.com/Amrsayed02/-Application-for-managing-posts.git" target="_blank">View on GitHub</a></p></div>
+<div class="card"><img class="project-thumb" src="images/myphoto.jpg" alt="project"><h3>Login & Register System</h3><p>Authentication system using PHP/Laravel.</p><p><a href="https://github.com/Amrsayed02/login-and-register-system.git" target="_blank">View on GitHub</a></p></div>
+</div></section>
+<section class="section fade-in" id="skills"><h2>Skills</h2><div style="display:grid;gap:14px;max-width:700px">
+<div><strong>PHP / Laravel</strong><div class="progress"><i style="width:90%"></i></div></div>
+<div><strong>MySQL</strong><div class="progress"><i style="width:85%"></i></div></div>
+<div><strong>JavaScript</strong><div class="progress"><i style="width:75%"></i></div></div>
+<div><strong>HTML / CSS</strong><div class="progress"><i style="width:95%"></i></div></div>
+<div><strong>Git & GitHub</strong><div class="progress"><i style="width:80%"></i></div></div>
+<div><strong>React.js</strong><div class="progress"><i style="width:70%"></i></div></div>
+</div></section>
+<section class="section fade-in" id="contact"><h2>Contact</h2><p>Email: <a href="mailto:amr666145@gmail.com">amr666145@gmail.com</a></p><p>GitHub: <a href="https://github.com/Amrsayed02" target="_blank">github.com/Amrsayed02</a></p><p>YouTube: <a href="https://www.youtube.com/@MoraSoft" target="_blank">@MoraSoft</a></p></section></main>
+<footer><p>© 2025 Amr Sayed — <a href="https://amrsayed02.github.io/portfolio" target="_blank">View Online</a></p></footer><script src="assets/main.js"></script></body></html>
