@@ -1,21 +1,80 @@
 <!doctype html>
 <html lang="en">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Amr Sayed Abdo - Portfolio</title><link rel="stylesheet" href="style.css"></head><body>
-<header class="navbar"><div class="brand">Amr Sayed</div><div id="navLinks" class="nav-links"><a href="index.html">Home</a><a href="about.html">About</a><a href="projects.html">Projects</a><a href="skills.html">Skills</a><a href="contact.html">Contact</a></div><button id="navToggle" aria-label="menu" style="display:none;background:transparent;border:0;font-weight:700">Menu</button></header>
-<section class="hero"><div class="hero-left fade-in"><h1>Hi, I’m <span style="color:var(--primary)">Amr Sayed Abdo</span></h1><p class="lead">Junior Back-End Developer (PHP / Laravel) — Passionate developer building modern web applications using Laravel and React.</p><div class="cta"><a class="btn btn-primary" href="projects.html">View Projects</a><a class="btn btn-outline" href="Amr-Sayed-Abdo.pdf" download>Download CV</a></div></div><div class="hero-right fade-in"><img src="images/myphoto.jpg" alt="Amr Sayed" class="profile-img"></div></section>
-<main><section class="section fade-in" id="about"><h2>About Me</h2><p>I’m a Computer Science graduate from Thebes Academy with practical experience in building backend systems and RESTful APIs using <strong>PHP / Laravel</strong>. I focus on clean architecture, security, and scalable code. Currently expanding skills into modern frontend with <strong>React.js</strong>.</p></section>
-<section class="section fade-in" id="projects"><h2>Projects</h2><div class="card-grid">
-<div class="card"><img class="project-thumb" src="images/myphoto.jpg" alt="project"><h3>Graduation Project – Irregular Employment Platform</h3><p>Backend in Laravel, secure RESTful APIs for user auth, job posting, applications and admin controls.</p><p><a href="https://github.com/Amrsayed02/graduation_project-for-irregula-_employment" target="_blank">View on GitHub</a></p></div>
-<div class="card"><img class="project-thumb" src="images/myphoto.jpg" alt="project"><h3>Application for Managing Posts</h3><p>CRUD system for posts management with authentication.</p><p><a href="https://github.com/Amrsayed02/-Application-for-managing-posts.git" target="_blank">View on GitHub</a></p></div>
-<div class="card"><img class="project-thumb" src="images/myphoto.jpg" alt="project"><h3>Login & Register System</h3><p>Authentication system using PHP/Laravel.</p><p><a href="https://github.com/Amrsayed02/login-and-register-system.git" target="_blank">View on GitHub</a></p></div>
-</div></section>
-<section class="section fade-in" id="skills"><h2>Skills</h2><div style="display:grid;gap:14px;max-width:700px">
-<div><strong>PHP / Laravel</strong><div class="progress"><i style="width:90%"></i></div></div>
-<div><strong>MySQL</strong><div class="progress"><i style="width:85%"></i></div></div>
-<div><strong>JavaScript</strong><div class="progress"><i style="width:75%"></i></div></div>
-<div><strong>HTML / CSS</strong><div class="progress"><i style="width:95%"></i></div></div>
-<div><strong>Git & GitHub</strong><div class="progress"><i style="width:80%"></i></div></div>
-<div><strong>React.js</strong><div class="progress"><i style="width:70%"></i></div></div>
-</div></section>
-<section class="section fade-in" id="contact"><h2>Contact</h2><p>Email: <a href="mailto:amr666145@gmail.com">amr666145@gmail.com</a></p><p>GitHub: <a href="https://github.com/Amrsayed02" target="_blank">github.com/Amrsayed02</a></p><p>YouTube: <a href="https://www.youtube.com/@MoraSoft" target="_blank">@MoraSoft</a></p></section></main>
-<footer><p>© 2025 Amr Sayed — <a href="https://amrsayed02.github.io/portfolio" target="_blank">View Online</a></p></footer><script src="assets/main.js"></script></body></html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Amr Sayed Abdo — Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="hero" id="home">
+    <div class="hero-content">
+      <h1 class="name">Amr Sayed Abdo</h1>
+      <p class="role">💻 Full Stack Web Developer</p>
+      <a class="btn" href="#contact">Contact Me</a>
+    </div>
+    <div class="hero-decor"></div>
+  </header>
+
+  <main>
+    <section id="features" class="section features">
+      <div class="container">
+        <h2 class="section-title">Features</h2>
+        <div class="cards">
+          <div class="card"> <div class="icon">⚙️</div> <h3>Backend (Laravel)</h3> </div>
+          <div class="card"> <div class="icon">⚛️</div> <h3>Frontend (React)</h3> </div>
+          <div class="card"> <div class="icon">🗄️</div> <h3>Databases</h3> </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="project-grid">
+          <article class="project-card">
+            <h3>Project Alpha</h3>
+            <p>Single-page app — deployed on GitHub Pages.</p>
+            <a class="proj-link" href="#">View repo</a>
+          </article>
+          <article class="project-card">
+            <h3>Shipment Dashboard</h3>
+            <p>Laravel admin panel with inventory flow.</p>
+            <a class="proj-link" href="#">View repo</a>
+          </article>
+          <article class="project-card">
+            <h3>Graphics Lab</h3>
+            <p>PyOpenGL project for 2D/3D scenes.</p>
+            <a class="proj-link" href="#">View repo</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container">
+        <h2 class="section-title">About</h2>
+        <p>I'm Amr — a Full Stack Web Developer from Cairo. I build backend systems with Laravel and craft interactive frontends with modern JS frameworks. I focus on clean code, performance and UX.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <p>Get in touch — email or find me on GitHub / LinkedIn.</p>
+        <div class="contact-buttons">
+          <a class="btn" href="mailto:amr@example.com">Email Me</a>
+          <a class="btn ghost" href="https://github.com/amrsayed02" target="_blank">GitHub</a>
+          <a class="btn ghost" href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">© <span id="year"></span> Amr Sayed Abdo — Designed with ❤️</div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
